@@ -1,4 +1,5 @@
 /* Global */
+
 body {
     position: relative;
     z-index: -2;
@@ -11,7 +12,9 @@ a i.fa {
     margin-right: 0.25em;
 }
 
+
 /* Header */
+
 header .bgMenu {
     height: 80px;
     background-color: #eead2d;
@@ -20,9 +23,14 @@ header .bgMenu {
 header .linkMenu {
     padding: 22px 1.2em 24px .8em;
     font-size: 1.5em;
-    font-weight: bold;
     color: #cc8b00;
 }
+
+header .linkMenu:hover {
+    color: #fff;
+}
+
+
 /* Main */
 
 .main {
