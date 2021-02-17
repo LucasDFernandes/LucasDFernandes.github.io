@@ -1,5 +1,4 @@
 /* Global */
-
 body {
     position: relative;
     z-index: -2;
@@ -8,8 +7,11 @@ body {
     overflow: visible;
 }
 
-/* Header */
+a i.fa {
+    margin-right: 0.25em;
+}
 
+/* Header */
 header .bgMenu {
     height: 80px;
     background-color: #eead2d;
@@ -21,10 +23,9 @@ header .linkMenu {
     font-weight: bold;
     color: #cc8b00;
 }
-
 /* Main */
 
 .main {
     background-color: #484a50;
-    height: 600px;
+    height: 800px;
 }
