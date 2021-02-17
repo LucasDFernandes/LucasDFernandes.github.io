@@ -14,6 +14,16 @@ h1 {
 }
 
 h2 {
+    color: #cc8b00;
+    margin: 0;
+}
+
+h3 {
+    color: #484a50;
+    margin: 0;
+}
+
+h4 {
     color: #eead2d;
     margin: 0;
 }
@@ -28,7 +38,7 @@ h2 {
     left: 12px;
 }
 
-a i.fa {
+i.fa {
     margin-right: 0.25em;
 }
 
@@ -61,9 +71,9 @@ header .linkMenu:hover {
 
 /* Main */
 
-.main {
+.sectionHome {
     background-color: #484a50;
-    height: 700px;
+    height: 850px;
 }
 
 .figureProfile img {
@@ -79,4 +89,12 @@ header .linkMenu:hover {
 
 .infoPerson h2 {
     margin-bottom: 0.5em;
+}
+
+
+/* Resumo */
+
+.sectionResumo h2,
+h4 {
+    margin-bottom: 1em;
 }
