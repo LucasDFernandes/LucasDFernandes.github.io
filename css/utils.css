@@ -3,3 +3,8 @@
 .centralizado {
     text-align: center !important;
 }
+
+.linha {
+    width: 100%;
+    height: 2px;
+}

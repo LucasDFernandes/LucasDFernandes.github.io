@@ -94,7 +94,11 @@ header .linkMenu:hover {
 
 /* Resumo */
 
-.sectionResumo h2,
-h4 {
+.sectionResumo h2 {
     margin-bottom: 1em;
+}
+
+.sectionResumo .linha {
+    background-color: #eead2d;
+    margin: 0.5em 0 0.5em 0;
 }
