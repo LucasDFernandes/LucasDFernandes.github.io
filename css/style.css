@@ -1,0 +1,30 @@
+/* Global */
+
+body {
+    position: relative;
+    z-index: -2;
+    font-family: Open Sans, Calibri, sans-serif;
+    color: #333;
+    overflow: visible;
+}
+
+/* Header */
+
+header .bgMenu {
+    height: 80px;
+    background-color: #eead2d;
+}
+
+header .linkMenu {
+    padding: 22px 1.2em 24px .8em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #cc8b00;
+}
+
+/* Main */
+
+.main {
+    background-color: #484a50;
+    height: 600px;
+}
