@@ -28,14 +28,9 @@ h4 {
     margin: 0;
 }
 
-.infoPerson p {
-    color: #ddd;
-    font-weight: 300;
-    text-align: left;
-    margin: .25em auto;
-    position: relative;
-    width: 200px;
-    left: 12px;
+h5 {
+    color: #fff;
+    margin: 0;
 }
 
 i.fa {
@@ -43,7 +38,7 @@ i.fa {
 }
 
 section {
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 :root {
@@ -73,7 +68,7 @@ header .linkMenu:hover {
 
 .sectionHome {
     background-color: #484a50;
-    height: 850px;
+    padding-bottom: 10em;
 }
 
 .figureProfile img {
@@ -91,14 +86,95 @@ header .linkMenu:hover {
     margin-bottom: 0.5em;
 }
 
+.infoPerson h5 {
+    color: #ddd;
+    font-weight: 300;
+    position: relative;
+    justify-content: left;
+    margin: 0.5em;
+}
+
 
 /* Resumo */
 
+.sectionResumo {
+    background-color: #878787;
+    color: #fff;
+}
+
 .sectionResumo h2 {
+    color: #eead2d;
     margin-bottom: 1em;
 }
 
 .sectionResumo .linha {
     background-color: #eead2d;
     margin: 0.5em 0 0.5em 0;
+}
+
+
+/* Experiencia */
+
+.sectionExperiencia {
+    height: 800px;
+}
+
+.sectionExperiencia h2 {
+    color: #cc8b00;
+    margin-bottom: 1em;
+}
+
+.figureCompany .img-thumbnail {
+    max-width: 50%;
+    background-color: inherit;
+    border: none;
+}
+
+.infoExperience {
+    padding: 0 1em 0 1em;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #eee;
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+    position: absolute;
+    top: inherit;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    margin: 25px 0;
+    text-align: center;
+}
+
+footer .titleFooter {
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 12px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+footer li a {
+    color: #333;
+    font-size: 28px !important;
+    transition: .25s;
+    text-decoration: none;
+}
+
+footer ul.devTools {
+    float: left;
+}
+
+footer ul.share {
+    float: right;
 }
